@@ -10,10 +10,6 @@
       </ul>
     </div>
   <% end %>
-  <div class="form-group">
-    <%= f.label :user_id %>
-    <%= f.collection_select :user_id, User.all, :id, :full_name, class: 'form-control' %>
-  </div>
 
   <div class="form-group">
     <%= f.label :content %>
